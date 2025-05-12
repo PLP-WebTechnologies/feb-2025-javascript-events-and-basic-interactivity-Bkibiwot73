@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JS Event Playground</h1>
+
+  <!-- Button with click event -->
+  <button id="colorBtn">Click Me!</button>
+
+  <!-- Hover effect -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <!-- Keypress area -->
+  <input type="text" id="keyInput" placeholder="Type something...">
+  <p id="keyDisplay">Key pressed: (none)</p>
+
+
+  <!-- Double click bonus -->
+  <p id="secret">Double-click me for a surprise</p>
+
+  <!-- Image gallery with Pexels images -->
+  <div class="gallery">
+    <img id="galleryImage" src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Gallery Image" />
+    <button id="nextImage">Next</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-btn" data-tab="1">Tab 1</button>
+    <button class="tab-btn" data-tab="2">Tab 2</button>
+    <div id="tabContent1" class="tab-content">This is tab 1 content.</div>
+    <div id="tabContent2" class="tab-content" style="display: none;">This is tab 2 content.</div>
+  </div>
+
+  <!-- Form -->
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <span id="passwordFeedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

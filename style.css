@@ -1,0 +1,54 @@
+/* Set a clean, sans-serif font and some padding around the page */
+body {
+  font-family: sans-serif;
+  padding: 2em;
+}
+
+/* Style all buttons: padding, spacing, color, and rounded corners */
+button {
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background-color: teal; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Box that changes color when hovered */
+#hoverBox {
+  background: lightblue; /* Initial background */
+  padding: 1em; /* Space inside the box */
+  margin: 1em 0; /* Vertical spacing */
+  transition: background 0.3s; /* Smooth background change on hover */
+}
+
+/* Change background color on hover */
+#hoverBox:hover {
+  background: coral; /* New color on hover */
+  cursor: pointer;  /* Pointer cursor to show it's interactive */
+}
+
+
+/* Style for tab content sections */
+.tab-content {
+  margin-top: 1em; /* Space above the tab content */
+  padding: 1em; /* Inner spacing */
+  background-color: #f2f2f2; /* Light gray background */
+}
+
+/* Style for images inside the gallery */
+.gallery img {
+  width: 300px; /* Fixed width */
+  height: auto; /* Keep aspect ratio */
+  display: block; /* Make each image appear on its own line */
+  margin-bottom: 0.5em; /* Space below each image */
+}
+
+/* Style for all input fields */
+input {
+  display: block; /* Take full line width */
+  margin: 0.5em 0; /* Vertical spacing */
+  padding: 0.5em; /* Inner spacing */
+  width: 300px; /* Fixed width */
+}
